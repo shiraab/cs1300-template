@@ -1,1 +1,82 @@
 /* Put your style information here! */
+
+body {
+  padding: 8px;
+}
+
+.body {
+  padding: 16px;
+  background-color: honeydew;
+  border: 2px dashed green;
+  border-radius: 8px;
+}
+
+h2, h3, h4 {
+  color: green;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+}
+
+.img-container {
+  max-width: 100%;
+  margin: 8px;
+  border: 1px dashed black;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.line {
+  display: block;
+  border-top: 1px dashed black;
+  padding-bottom: 8px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  max-width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+}
+
+.column-align-inner {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  min-height: 40%;
+  justify-content: center;
+}
+
+.legend {
+  border-top: 1px dashed black;
+  font-style: italic;
+  padding: 8px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+ol {
+  font-style: oblique;
+}
+
+ul {
+  font-weight: normal;
+  font-style: normal;
+}

@@ -2,13 +2,183 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>The Envirobrite LED Task Lamp!</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <div class='body'>
+      <h1>Personas & Storyboarding: The Envirobrite LED Task Lamp</h1>
+      <span class='line'></span>
+      <h2>Context</h2>
+        <p>We were tasked with finding an interface somewhere in public space and
+          interviewing three users about it. Based on those interviews, we created
+          two personas and a storyboard to illustrate the user journey of one of
+          those personas. With this task, I decided to choose...[drumroll please] a lamp. Why?
+          Well, first, it is a lamp I love to use. But second, there are a few things that
+          frustrate me about the interface, and I was wondering if others felt the same way.
+        </p>
+      <h2>The Interface</h2>
+      <div class='column-container'>
+        <div class='column'>
+          <div class='column-align-inner'>
+          <p>The selected interface is the LED Task Lamp, a desk lamp that is present
+            in a common space in my house.</p>
+          <p>It has several different modes, as well as a timer, and needs to be set up
+            before it is used (as can be stored in a folded state when not in use).</p>
+          </div>
+            <div class='img-container'>
+              <img src='lamp-controls.png'/>
+              <p class='legend'>
+                Fig. 1: A close-up view of the lamp's controls.
+              </p>
+            </div>
+        </div>
+        <div class='column'>
+          <div class='img-container'>
+            <img src='Interface-diagram.png'/>
+            <p class='legend'>
+              Fig. 2: The interface in question. The main navigation has 5 buttons.
+              The lamp must be plugged in in order to work.
+            </p>
+          </div>
+        </div>
+        </div>
+      <h2>User interviews</h2>
+      <h3>The users</h3>
+      <p>
+        Interviewed users included one undergraduate student, one graduate
+        student and teaching assistant, and one professional teacher. None of
+        the respondents had seen or used the interface before.
+      </p>
+      <h3>The questions</h3>
+      <h4>Behavioral questions</h4>
+      <ol>
+        <li>
+          What kind of work do you do?
+          <ul>
+            <li>All three said that they do a great deal of typing, writing, reading, and Zoom meeting while working.</li>
+          </ul>
+        </li>
+        <li>
+          Where do you work best?
+          <ul>
+            <li>
+              Respondents prefer to work at a desk, but two responded that they
+              also sometimes work in “soft seating.”
+            </li>
+          </ul>
+        </li>
+        <li>
+          Describe your workspace.
+          <ul>
+            <li>
+              All respondents described their desk area; only one mentioned using
+              a lamp. They described having their
+              computers, a notebook or other paper, and books around their
+              workspace at any given time. One noted having a lamp beside them.
+              One respondent later stated that they never work with a tabletop
+              lamp, but do sometimes work with lamps by soft seating.
+            </li>
+          </ul>
+        </li>
+        <li>
+          What time of day do you prefer to do your work?
+          <ul>
+            <li>
+              Two respondents noted a preference for daytime work, though
+              all said that they do work in the evening.
+              One respondent preferred evening work.
+            </li>
+          </ul>
+        </li>
+        <li>
+          What kind of lighting do you like best?
+          <ul>
+            <li>
+              All respondents said they prefer natural light. When asked to
+              describe what lighting they prefer for evening work,
+              all three said warm light.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <h4>Interface questions</h4>
+      <ol>
+        <li>
+          What does each circle do? (Describe what you can do with the button).
+          <ul>
+            <li>
+              All respondents correctly identified the power button.
+              Two respondents correctly identified the Mode button;
+              one hesitated but eventually settled on “quality of light.”
+              Respondents hesitated upon identifying the 1H/2H buttons;
+              all three eventually identified it correctly. The arrow
+              buttons were identified by two respondents to change the
+              brightness of the light; one respondent suggested that it
+              would increase or decrease the amount of time for which the
+              light would stay on.
+            </li>
+          </ul>
+        </li>
+        <li>
+          What lighting mode do you prefer?
+          <ul>
+            <li>
+              Respondents did not need to be prompted to answer this question;
+              all three were forthcoming about their preference for the most
+              yellow or warm light.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <p>
+        When requested to set up the lamp, users paused to observe it before
+        initially setting it up; one attempted first to stand it upside-down. One user
+        did not initially plug the lamp in before trying to turn it on by pressing
+        on the power button; the other two plugged the lamp in and then tried to turn it on.
+        One user took a few seconds to find the power button; the other two found it immediately.
+        Users were then asked to identify what they thought the buttons would do before pressing them.
+        All users intuitively knew how to press the buttons. All three users tapped the Mode button several times
+        while testing it; two did this immediately upon pressing it, while one paused to inspect the light difference.
+      </p>
+      <h2>Personas</h2>
+      <div class='column-container'>
+        <div class='column'>
+          <h3>Frantic Felix</h3>
+          <div class='img-container'>
+            <img alt='illustration of Felix, a student with black hair and shirt, with a four-quadrant empathy map' src='Frantic-felix-diagram.png'/>
+            <p class='legend'>Fig. 3:  Felix is a student who is taking Zoom classes and consequently
+              has been experiencing a lot of eye strain. He’s got a deadline tonight
+              and wants to get back to work as soon as possible, but his eyes don’t feel
+              super great at the moment, between his readings and his extended
+              screen time.
+            </p>
+          </div>
+        </div>
+        <div class='column'>
+          <h3>Inquisitive Ira</h3>
+          <div class='img-container'>
+            <img alt='illustration of Ira, a teacher with light brown hair and a pink shirt, with a four-quadrant empathy map' src='Inquisitive-ira-diagram.png'/>
+            <p class='legend'>
+              Fig. 4: Ira is a teacher-in-training who is currently in graduate school
+              and working part-time as part of their degree. They also tutor on the
+              side.  They have limited space in their current room, since they’re
+              trying to save on rent, and are missing personal interactions with their
+              students a lot.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2>Storyboard</h2>
+      <p>I chose to create a storyboard using Felix, who suffers from eye strain
+        and migraines.<p>
+      <div class='img-container'>
+        <img alt='storyboard of Felix using the interface' src='./Felix-storyboard.png'/>
+      </div>
+    </div>
   </body>
 </html>
